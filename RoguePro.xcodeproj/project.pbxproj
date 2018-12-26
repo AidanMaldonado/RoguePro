@@ -9,19 +9,29 @@
 /* Begin PBXBuildFile section */
 		472609C121D3463E00B08ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609C021D3463E00B08ADD /* AppDelegate.swift */; };
 		472609C321D3463E00B08ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609C221D3463E00B08ADD /* ViewController.swift */; };
-		472609C621D3463E00B08ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472609C421D3463E00B08ADD /* Main.storyboard */; };
 		472609C821D3463F00B08ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 472609C721D3463F00B08ADD /* Assets.xcassets */; };
 		472609CB21D3463F00B08ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472609C921D3463F00B08ADD /* LaunchScreen.storyboard */; };
+		472609D421D346F500B08ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 472609D221D346F400B08ADD /* Main.storyboard */; };
+		472609E121D3473700B08ADD /* ContractsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609DD21D3473600B08ADD /* ContractsViewController.swift */; };
+		472609E221D3473700B08ADD /* CharacterPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609DE21D3473700B08ADD /* CharacterPickViewController.swift */; };
+		472609E321D3473700B08ADD /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609DF21D3473700B08ADD /* CharacterViewController.swift */; };
+		472609E421D3473700B08ADD /* WeaponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609E021D3473700B08ADD /* WeaponViewController.swift */; };
+		472609E621D3475C00B08ADD /* ArmoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472609E521D3475C00B08ADD /* ArmoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		472609BD21D3463E00B08ADD /* RoguePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoguePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		472609C021D3463E00B08ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		472609C221D3463E00B08ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		472609C521D3463E00B08ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		472609C721D3463F00B08ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472609CA21D3463F00B08ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		472609CC21D3463F00B08ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		472609D321D346F400B08ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../Rogue/Rogue/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		472609DD21D3473600B08ADD /* ContractsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsViewController.swift; sourceTree = "<group>"; };
+		472609DE21D3473700B08ADD /* CharacterPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPickViewController.swift; sourceTree = "<group>"; };
+		472609DF21D3473700B08ADD /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		472609E021D3473700B08ADD /* WeaponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponViewController.swift; sourceTree = "<group>"; };
+		472609E521D3475C00B08ADD /* ArmoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				472609C021D3463E00B08ADD /* AppDelegate.swift */,
 				472609C221D3463E00B08ADD /* ViewController.swift */,
-				472609C421D3463E00B08ADD /* Main.storyboard */,
+				472609DE21D3473700B08ADD /* CharacterPickViewController.swift */,
+				472609DF21D3473700B08ADD /* CharacterViewController.swift */,
+				472609DD21D3473600B08ADD /* ContractsViewController.swift */,
+				472609E021D3473700B08ADD /* WeaponViewController.swift */,
+				472609E521D3475C00B08ADD /* ArmoryViewController.swift */,
+				472609D221D346F400B08ADD /* Main.storyboard */,
 				472609C721D3463F00B08ADD /* Assets.xcassets */,
 				472609C921D3463F00B08ADD /* LaunchScreen.storyboard */,
 				472609CC21D3463F00B08ADD /* Info.plist */,
@@ -124,7 +139,7 @@
 			files = (
 				472609CB21D3463F00B08ADD /* LaunchScreen.storyboard in Resources */,
 				472609C821D3463F00B08ADD /* Assets.xcassets in Resources */,
-				472609C621D3463E00B08ADD /* Main.storyboard in Resources */,
+				472609D421D346F500B08ADD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472609E421D3473700B08ADD /* WeaponViewController.swift in Sources */,
+				472609E621D3475C00B08ADD /* ArmoryViewController.swift in Sources */,
+				472609E321D3473700B08ADD /* CharacterViewController.swift in Sources */,
 				472609C321D3463E00B08ADD /* ViewController.swift in Sources */,
+				472609E221D3473700B08ADD /* CharacterPickViewController.swift in Sources */,
+				472609E121D3473700B08ADD /* ContractsViewController.swift in Sources */,
 				472609C121D3463E00B08ADD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,20 +163,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		472609C421D3463E00B08ADD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				472609C521D3463E00B08ADD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		472609C921D3463F00B08ADD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				472609CA21D3463F00B08ADD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		472609D221D346F400B08ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				472609D321D346F400B08ADD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -283,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBT35TKD8K;
 				INFOPLIST_FILE = RoguePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBT35TKD8K;
 				INFOPLIST_FILE = RoguePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
